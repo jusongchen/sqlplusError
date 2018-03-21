@@ -1,0 +1,6 @@
+WHENEVER OSERROR EXIT 9;
+WHENEVER SQLERROR EXIT SQL.SQLCODE 
+
+select * from dual;
+
+exit;
