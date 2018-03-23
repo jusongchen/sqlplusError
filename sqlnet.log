@@ -1,0 +1,19 @@
+
+
+***********************************************************************
+Fatal NI connect error 12543, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=slob)(CID=(PROGRAM=sqlplus)(HOST=jusongch-ltm2.internal.salesforce.com)(USER=jusong.chen)))(ADDRESS=(PROTOCOL=TCP)(HOST=10.230.40.228)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for MacOS X Server: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for MacOS X Server: Version 11.2.0.4.0 - Production
+  Time: 23-MAR-2018 12:00:37
+  Tracing to file: /Library/Oracle/instantclient_11_2/network/trace/cli_64798.trc
+  Tns error struct:
+    ns main err code: 12543
+    TNS-12543: Message 12543 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 513
+    TNS-00513: Message 513 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 51
+    nt OS err code: 0
